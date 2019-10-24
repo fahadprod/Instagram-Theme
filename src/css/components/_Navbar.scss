@@ -1,0 +1,86 @@
+
+.navbar-main{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+
+.logo_one{
+    margin-left: 13%;
+    font-size: 2vw;
+    color: black;
+}
+.logo_one:hover{
+    color: black;
+    text-decoration: none;
+}
+.insta_logo{
+    width: 30%;
+    height: auto;
+}
+.right_icon{
+    font-size: 2vw;
+    margin-right: 25vh;
+}
+
+.search_bar{
+    width: 30%;
+    padding: 20px;
+    background: url("https://cdn2.iconfinder.com/data/icons/ikooni-generic-symbols/128/maybe-50-512.png") left no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    margin-right: 20%;
+    padding-left: 35px;
+    border-radius: 50px;
+}
+.nav_link{
+    color: black;
+    padding: 20px;
+}
+.nav_link:hover{
+    color: black;
+}
+.nav_link1{
+    display: none;
+}
+@media ( max-width : 768px){
+    .search_bar{
+        display: none;
+    }
+    .right_icon{
+        font-size: 2.5vw;
+    }
+    .logo_one{
+        font-size: 2.5vw;
+    }
+}
+@media ( max-width : 480px) {
+    .logo_one{
+        margin-left: 0%;
+        font-size: 6vw;
+    }
+    .insta_logo{
+        width: 25%;
+        height: auto;
+    }
+    .right_icon{
+        // margin-right: 20vh;
+        display: none;
+    }
+    .second_icon{
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 70%;
+        
+    }
+    .nav_link1{
+        display: initial;
+        padding-left: 9px;
+        color: black;
+        font-size: 6vw;
+    }
+    .search_bar{
+        display: none;
+    }
+}
